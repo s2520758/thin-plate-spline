@@ -1,5 +1,4 @@
-#Yingjie Yang 
-#s2520758
+
 #Obtain consistent random results so that each plot is the same
 set.seed(10)
 ff <- function(x) {exp(-(x[,1]-.3)^2/.2^2-(x[,2] - .3)^2/.3^2)*.5 +
